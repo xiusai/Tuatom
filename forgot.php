@@ -27,8 +27,8 @@
 <body background="assets/images/wall2.jpg">
 	<header></header>
 	<section class="container">
-		<!--<form id="form_login" action="POST"> -->
-		  <form action="forgotaction.php" method = "post"> 
+		
+		  <form action="PHPMailer/forgotaction.php" method = "post"> 
 			<div style="width: 50%; margin: auto;">
 				<div class="form-group">
 
