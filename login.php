@@ -45,9 +45,9 @@
 				</div>
 				<div class="form-group">
 					<button class="btn btn-success" type="submit">Login</button>
-					<a href="http://google.com"> or Forgot password</a>
+					<a href="http://127.0.0.1/Tuatom/forgot.php"> or Forgot password</a>
 					<p><p><label class="control-label"> or click here to </label>
-						<a href="http://127.0.0.1/se/regisform.php">Create account</a>
+						<a href="http://127.0.0.1/Tuatom/regisform.php">Create account</a>
 				</div>
 
 			
