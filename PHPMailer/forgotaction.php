@@ -33,7 +33,6 @@ $con = mysqli_connect("127.0.0.1","root","","tuatom");
 ///////////////////////////////////////////
 
 $mail = new PHPMailer;
-
 //$mail->SMTPDebug = 3;                               // Enable verbose debug output
 $mail->isSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
@@ -64,7 +63,6 @@ if(!$mail->send()) {
 } else {
     echo 'Message has been sent';
 }
-
 header("refresh:1; url = sendpass.php");
 
 
