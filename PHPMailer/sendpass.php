@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	
 	<title>YOUR PASSWORD</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link rel="stylesheet" type="text/css" href="assets/css/sweetalert.css">
@@ -11,6 +12,8 @@
 		section {
 			margin-top: 10%;
 		}
+
+
 		.box {
 
                 font-family: 'Lato', sans-serif;
@@ -27,10 +30,13 @@
 	</style>
 </head>
 <body background="wall2.jpg">
-	<header></header>	
+	<header></header>
+	
 	<section class="box">
+		<!--<form id="form_login" action="POST"> -->
 		<h1>Your password has been sent to your Email.</h1><p>
-		<a href="http://127.0.0.1/Tuatom/login.php">Click here to Login</a>
+		<a href="http://127.0.0.1/projectse/login.php">Click here to Login</a>
+		
 	</section>
 </body>
 

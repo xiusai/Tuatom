@@ -1,7 +1,6 @@
 <!doctype html>
 <html>
 	<head>
-<<<<<<< HEAD
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
@@ -11,20 +10,14 @@
 		<!-- Latest compiled JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-=======
->>>>>>> 237e997b4c80e6c18c4e5f0b27a292e74e49c225
 		<script type = "text/javascript">
 			function btnclick(){
 				window.location.href='gameUI.php'
 			}
 		</script>
 	</head>
-<<<<<<< HEAD
 
 	<body background="2wall.jpg">
-=======
-	<body>
->>>>>>> 237e997b4c80e6c18c4e5f0b27a292e74e49c225
 		<?php
 			$con= mysqli_connect("127.0.0.1","root","","tuatom");
 			mysqli_query($con, "SET NAMES UTF8");
@@ -33,7 +26,6 @@
 				echo "Failed to connect to MySQL: " . mysqli_connect_error();
 			}
 		?>
-<<<<<<< HEAD
 		<div class="container">
 			<div class="row">
 		
@@ -52,13 +44,13 @@
 				<div class="col-sm-3">
 				</div>
 	  			<div class="col-sm-6">
-					<br><br><center><img src="kk.png" class="img-responsive" alt=""> <br></center>
+	  				<img src="kk.png" class="img-responsive" alt=""> <br>
 	  				<div class="clearfix"></div>
 	  				<!-- <div class="form-group">
 					  <label for="usr">Name:</label>
 					  <input type="text" class="form-control" id="usr" placeholder="ENTER YOUR NAME">
 					</div> -->
-	  				<br><br><button type = "button" class="btn btn-lg btn-primary btn-block" id = "mybutton" onclick = "btnclick()" value = "Play Game">PLAY GAME </button>
+	  				<button type = "button" class="btn btn-lg btn-primary btn-block" id = "mybutton" onclick = "btnclick()" value = "Play Game">PLAY GAME </button>
 				</div>
 				<div class="col-sm-3">
 				</div>
@@ -66,9 +58,6 @@
 
 		</div>
 		
-=======
-		<input type = "button" id = "mybutton" onclick = "btnclick()" value = "Play Game"/>
->>>>>>> 237e997b4c80e6c18c4e5f0b27a292e74e49c225
 	</body>
 </html>
 

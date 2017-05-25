@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!doctype html>
 <html>
 	<head>
@@ -13,8 +12,6 @@
 
 	</head>
 	<body background="2wall.jpg">
-=======
->>>>>>> 237e997b4c80e6c18c4e5f0b27a292e74e49c225
 <?php
 
 session_start();
@@ -54,7 +51,6 @@ session_start();
 		$_SESSION['Username'] = $ObjResult['Username'];
 		$_SESSION['PlayerID'] = $ObjResult['PlayerID'];
 		session_write_close();
-<<<<<<< HEAD
 		// echo "login successful"; 
 		// echo "<br>";
 		// echo "Username = ".$_SESSION['Username'];
@@ -62,15 +58,6 @@ session_start();
 		// echo "PlayerID = ".$_SESSION['PlayerID'];
 		header("location : question.php");
 		header("refresh:0; url=question.php");
-=======
-		echo "login successful"; 
-		echo "<br>";
-		echo "Username = ".$_SESSION['Username'];
-		echo "<br>";
-		echo "PlayerID = ".$_SESSION['PlayerID'];
-		header("location : regisform.php");
-		/*header("refresh:3; url=showAddress.php");*/
->>>>>>> 237e997b4c80e6c18c4e5f0b27a292e74e49c225
 	}
 
 	/*
@@ -89,8 +76,5 @@ session_start();
 	/*$InsertOrder = "INSERT INTO order (ItemID,AmountItem,ItemPrice,SubTotalPrice,TotalPrice,OrderAddress,ShippingID)"*/
 	mysqli_close($con);
 ?>
-<<<<<<< HEAD
 </body>
 </html>
-=======
->>>>>>> 237e997b4c80e6c18c4e5f0b27a292e74e49c225
