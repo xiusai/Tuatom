@@ -52,13 +52,13 @@
 				<div class="col-sm-3">
 				</div>
 	  			<div class="col-sm-6">
-	  				<img src="kk.png" class="img-responsive" alt=""> <br>
+					<br><br><center><img src="kk.png" class="img-responsive" alt=""> <br></center>
 	  				<div class="clearfix"></div>
 	  				<!-- <div class="form-group">
 					  <label for="usr">Name:</label>
 					  <input type="text" class="form-control" id="usr" placeholder="ENTER YOUR NAME">
 					</div> -->
-	  				<button type = "button" class="btn btn-lg btn-primary btn-block" id = "mybutton" onclick = "btnclick()" value = "Play Game">PLAY GAME </button>
+	  				<br><br><button type = "button" class="btn btn-lg btn-primary btn-block" id = "mybutton" onclick = "btnclick()" value = "Play Game">PLAY GAME </button>
 				</div>
 				<div class="col-sm-3">
 				</div>
