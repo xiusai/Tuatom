@@ -3,7 +3,11 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
+<<<<<<< HEAD
 -- Generation Time: May 25, 2017 at 01:18 PM
+=======
+-- Generation Time: May 20, 2017 at 03:51 PM
+>>>>>>> 237e997b4c80e6c18c4e5f0b27a292e74e49c225
 -- Server version: 10.1.16-MariaDB
 -- PHP Version: 7.0.9
 
@@ -52,18 +56,27 @@ CREATE TABLE `Player` (
   `Password` varchar(20) COLLATE utf8_unicode_ci NOT NULL,
   `Email` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
   `CreditCard` int(50) NOT NULL,
+<<<<<<< HEAD
   `Coins` int(50) NOT NULL,
   `expiry_month` int(11) NOT NULL,
   `expiry_year` int(11) NOT NULL,
   `cvv` int(11) NOT NULL
+=======
+  `Coins` int(50) NOT NULL
+>>>>>>> 237e997b4c80e6c18c4e5f0b27a292e74e49c225
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `Player`
 --
 
+<<<<<<< HEAD
 INSERT INTO `Player` (`PlayerID`, `Username`, `Password`, `Email`, `CreditCard`, `Coins`, `expiry_month`, `expiry_year`, `cvv`) VALUES
 (1, 'GG', '1234', 'gg@gg', 12345678, 2000, 0, 0, 0);
+=======
+INSERT INTO `Player` (`PlayerID`, `Username`, `Password`, `Email`, `CreditCard`, `Coins`) VALUES
+(1, 'GG', '1234', 'gg@gg', 12345678, 2000);
+>>>>>>> 237e997b4c80e6c18c4e5f0b27a292e74e49c225
 
 -- --------------------------------------------------------
 
@@ -75,17 +88,22 @@ CREATE TABLE `Question` (
   `QuestionID` int(20) NOT NULL,
   `Question` varchar(150) COLLATE utf8_unicode_ci NOT NULL,
   `Answer` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
+<<<<<<< HEAD
   `TopicID` int(20) NOT NULL,
   `Choice1` varchar(150) COLLATE utf8_unicode_ci DEFAULT NULL,
   `Choice2` varchar(150) COLLATE utf8_unicode_ci DEFAULT NULL,
   `Choice3` varchar(150) COLLATE utf8_unicode_ci DEFAULT NULL,
   `Choice4` varchar(150) COLLATE utf8_unicode_ci DEFAULT NULL
+=======
+  `TopicID` int(20) NOT NULL
+>>>>>>> 237e997b4c80e6c18c4e5f0b27a292e74e49c225
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `Question`
 --
 
+<<<<<<< HEAD
 INSERT INTO `Question` (`QuestionID`, `Question`, `Answer`, `TopicID`, `Choice1`, `Choice2`, `Choice3`, `Choice4`) VALUES
 (1, 'Which animal can fly?', 'bird', 1, 'dog', 'bird', 'fish', 'zebra'),
 (2, 'which animal can breath in the water', 'fish', 1, 'fish', 'ant', 'pig', 'hippo'),
@@ -94,6 +112,11 @@ INSERT INTO `Question` (`QuestionID`, `Question`, `Answer`, `TopicID`, `Choice1`
 (5, 'which is the biggest animal?', 'elephant', 1, 'elephant', 'ant', 'monkey', 'pig'),
 (6, 'which country is in Europe?', 'Italy', 2, 'Thailand', 'Uruguay', 'Italy', 'Pakistan'),
 (7, 'Who is the singer?', 'Adele', 3, 'Huge Jackman', 'Robert Pattinson', 'Adele', 'Harry Potter');
+=======
+INSERT INTO `Question` (`QuestionID`, `Question`, `Answer`, `TopicID`) VALUES
+(1, 'Which animal can fly', 'bird', 1),
+(2, 'Which animal can stay in very low temperature?', 'penguin', 1);
+>>>>>>> 237e997b4c80e6c18c4e5f0b27a292e74e49c225
 
 -- --------------------------------------------------------
 
@@ -160,8 +183,11 @@ ALTER TABLE `Mode`
 --
 ALTER TABLE `Player`
   ADD PRIMARY KEY (`PlayerID`),
+<<<<<<< HEAD
   ADD UNIQUE KEY `Username` (`Username`),
   ADD UNIQUE KEY `CreditCard` (`CreditCard`),
+=======
+>>>>>>> 237e997b4c80e6c18c4e5f0b27a292e74e49c225
   ADD KEY `PlayerID` (`PlayerID`);
 
 --
@@ -198,12 +224,20 @@ ALTER TABLE `Mode`
 -- AUTO_INCREMENT for table `Player`
 --
 ALTER TABLE `Player`
+<<<<<<< HEAD
   MODIFY `PlayerID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+=======
+  MODIFY `PlayerID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+>>>>>>> 237e997b4c80e6c18c4e5f0b27a292e74e49c225
 --
 -- AUTO_INCREMENT for table `Question`
 --
 ALTER TABLE `Question`
+<<<<<<< HEAD
   MODIFY `QuestionID` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+=======
+  MODIFY `QuestionID` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+>>>>>>> 237e997b4c80e6c18c4e5f0b27a292e74e49c225
 --
 -- AUTO_INCREMENT for table `Score`
 --

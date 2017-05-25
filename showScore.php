@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!doctype html>
 <html>
 	<head>
@@ -26,12 +27,18 @@
 <?php
 
 	$con = mysqli_connect("127.0.0.1","root","","tuatom");
+=======
+<?php
+
+	$con = mysqli_connect("127.0.0.1","root","","tuatom2");
+>>>>>>> 237e997b4c80e6c18c4e5f0b27a292e74e49c225
 
 	if(mysqli_connect_errno())
 	{
 		echo "Failed to connect to Database" .mysqli_connect_error();
 	}
 
+<<<<<<< HEAD
 	if(!mysqli_query($con,"SELECT Answer, QuestionID FROM Question ORDER BY QuestionID"))
 	{
 		 	die('Error :' .mysqli_error($con));
@@ -118,3 +125,10 @@
 
 	</body>
 	</html>
+=======
+
+    echo $_POST['c'];
+//    echo $_POST['answer2'];
+  //  echo $_POST['answer3'];
+    ?>
+>>>>>>> 237e997b4c80e6c18c4e5f0b27a292e74e49c225
