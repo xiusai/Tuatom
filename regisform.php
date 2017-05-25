@@ -144,7 +144,9 @@ color: white;
       </div>
 
 				<!-- Submit button -->
-				<input type="submit" value="Submit" class ="btn btn-primary">
+          <input type="submit" value="Submit" class ="btn btn-primary"><p>or<p>
+        <a href="http://127.0.0.1/Tuatom/login.php">Click here to login  </a>
+			
 
 	</fieldset>
 	</form>
